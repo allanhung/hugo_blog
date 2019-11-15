@@ -7,9 +7,8 @@ publishDir = "allanhung.github.io"
 
 [params]
   author = "allanhung"
-  description = "example"
-  github = "https://github.com/allanhung"
-  twitter = "N/A"
+  description = "Blog on Github"
+  github = "allanhung"
   email = "hung.allan@gmail.com"
   utterances = "allanhung/allanhung.github.io"
 

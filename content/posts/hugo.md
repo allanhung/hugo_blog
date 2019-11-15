@@ -34,7 +34,7 @@ publishDir = "{user_name}.github.io"
 [params]
   author = "{user_name}"
   description = "example"
-  github = "https://github.com/{user_name}"
+  github = "{user_name}"
   twitter = "example"
   email = "example@domain.com"
   utterances = "example/example.github.io"
