@@ -53,7 +53,7 @@ publishDir = "<user_name>.github.io"
   filename = "sitemap.xml"
 EOF
 hugo
-cd <user_name>.github.io.git && git add . --all && git commit -m "hugo static" && git push
+cd <user_name>.github.io && git add . --all && git commit -m "hugo static" && git push
 git add . --all && git commit -m "first hugo site" && git push -u origin master
 ```
 
@@ -74,4 +74,9 @@ categories: ["Readme"]
 your markdown context
 ```
 
+### push to github
+```
+hugo
+cd <user_name>.github.io && git add . --all && git commit -m "hugo static" && git push
+```
 Browser Blog URL: [https://<user_name>.github.io](https://<user_name>.github.io)
