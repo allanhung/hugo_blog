@@ -14,22 +14,22 @@ brew install hugo
 
 ### create repo in github
 - hugo_blog
-- <user_name>.github.io
+- {user_name}.github.io
 
 ### create site by hugo and deply to github
 ```bash
 hugo new site hugo_blog
-cd hugo_blog && git init && git remote add origin https://github.com/<user_name>/hugo_blog
+cd hugo_blog && git init && git remote add origin https://github.com/{user_name}/hugo_blog
 # add theme
 git submodule add https://github.com/calintat/minimal.git themes/minimal
-git submodule add -f https://github.com/<user_name>/<user_name>.github.io.git
+git submodule add -f https://github.com/{user_name}/{user_name}.github.io.git
 cat > config.toml << EOF
-baseURL = "https://<user_name>.github.io/" 
+baseURL = "https://{user_name}.github.io/" 
 languageCode = "en-us"  
 title = "Test Site"  
 theme = "hamburg"
 googleAnalytics = ""
-publishDir = "<user_name>.github.io"
+publishDir = "{user_name}.github.io"
 
 [menu]
   [[menu.main]]
@@ -53,7 +53,7 @@ publishDir = "<user_name>.github.io"
   filename = "sitemap.xml"
 EOF
 hugo
-cd <user_name>.github.io && git add . --all && git commit -m "hugo static" && git push
+cd {user_name}.github.io && git add . --all && git commit -m "hugo static" && git push
 git add . --all && git commit -m "first hugo site" && git push -u origin master
 ```
 
@@ -71,12 +71,12 @@ summary: "How to create blog with Hugo and deploy to Github"
 tags: ["Hugo","Git"]
 categories: ["Readme"]
 ---
-your markdown context
+{your markdown context}
 ```
 
 ### push to github
 ```
 hugo
-cd <user_name>.github.io && git add . --all && git commit -m "hugo static" && git push
+cd {user_name}.github.io && git add . --all && git commit -m "hugo static" && git push
 ```
-Browser Blog URL: [https://<user_name>.github.io](https://<user_name>.github.io)
+Browser Blog URL: [https://{user_name}.github.io](https://{user_name}.github.io)
