@@ -4,6 +4,7 @@ title = "Blog On Github"
 theme = "hamburg"  
 googleAnalytics = ""  
 publishDir = "allanhung.github.io"
+
 [menu]
 	[[menu.main]]
 		name = "Home"
