@@ -5,21 +5,13 @@ theme = "github-style"
 googleAnalytics = ""  
 publishDir = "allanhung.github.io"
 
-[menu]
-	[[menu.main]]
-		name = "Home"
-		identifier = "home"
-		url = "/"
-
-	[[menu.main]]
-		name = "Tags"
-		identifier = "tags"
-		url = "tags/"
-
-	[[menu.main]]
-		name = "Categories"
-		identifier = "categories"
-		url = "categories/"
+[params]
+  author = "allanhung"
+  description = "example"
+  github = "https://github.com/allanhung"
+  twitter = "N/A"
+  email = "hung.allan@gmail.com"
+  utterances = "allanhung/allanhung.github.io"
 
 [sitemap]
 	changefreq = "monthly"

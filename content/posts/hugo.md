@@ -26,26 +26,18 @@ git submodule add -f https://github.com/{user_name}/{user_name}.github.io.git
 cat > config.toml << EOF
 baseURL = "https://{user_name}.github.io/" 
 languageCode = "en-us"  
-title = "Test Site"  
-theme = "hamburg"
+title = "Test Site"
+theme = "github-style"
 googleAnalytics = ""
 publishDir = "{user_name}.github.io"
 
-[menu]
-  [[menu.main]]
-    name = "Home"
-    identifier = "home"
-    url = "/"
-
-  [[menu.main]]
-    name = "Tags"
-    identifier = "tags"
-    url = "tags/"
-
-  [[menu.main]]
-    name = "Categories"
-    identifier = "categories"
-    url = "categories/"
+[params]
+  author = "{user_name}"
+  description = "example"
+  github = "https://github.com/{user_name}"
+  twitter = "example"
+  email = "example@domain.com"
+  utterances = "example/example.github.io"
 
 [sitemap]
   changefreq = "monthly"
@@ -55,6 +47,10 @@ EOF
 hugo
 cd {user_name}.github.io && git add . --all && git commit -m "hugo static" && git push
 git add . --all && git commit -m "first hugo site" && git push -u origin master
+```
+### about
+```bash
+hugo new about.md
 ```
 
 ### new post
