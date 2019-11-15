@@ -30,6 +30,7 @@ title = "Test Site"
 theme = "github-style"
 googleAnalytics = ""
 publishDir = "{user_name}.github.io"
+avatar = "avatar.jpg"
 
 [params]
   author = "{user_name}"

@@ -4,9 +4,10 @@ title = "Blog On Github"
 theme = "github-style"  
 googleAnalytics = ""  
 publishDir = "allanhung.github.io"
+avatar = "images/myavatar.png"
 
 [params]
-  author = "allanhung"
+  author = "Allan"
   description = "Blog on Github"
   github = "allanhung"
   email = "hung.allan@gmail.com"
