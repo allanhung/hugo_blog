@@ -20,11 +20,6 @@ publishDir = "allanhung.github.io"
 		identifier = "categories"
 		url = "categories/"
 
-	[[menu.main]]
-		name = "About"
-		identifier = "about"
-		url = "pages/about/"
-
 [sitemap]
 	changefreq = "monthly"
 	priority = 0.5
