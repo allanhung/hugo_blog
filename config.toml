@@ -1,0 +1,6 @@
+baseURL = "https://allanhung.github.io/" 
+languageCode = "en-us"  
+title = "Test Site"  
+theme = "minimal"  
+googleAnalytics = ""  
+publishDir = "allanhung.github.io"
