@@ -1,11 +1,11 @@
 ---
 title: "Hugo"
 date: 2019-11-15T14:24:54+08:00
-draft: false
+tags: ["Hugo","Git"]
 ---
 ## Create and deploy your Hugo site on Github
 
-### create repo
+### create repo in github
 - hugo_blog
 - <user_name>.github.io
 
