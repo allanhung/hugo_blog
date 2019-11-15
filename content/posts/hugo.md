@@ -1,6 +1,7 @@
 ---
 title: "Hugo"
 date: 2019-11-15T14:24:54+08:00
+summary: "How to create blog with Hugo and deploy to Github"
 tags: ["Hugo","Git"]
 ---
 # Create and deploy your Hugo site on Github <!--more-->
